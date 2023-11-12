@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_char - prints character
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_char - A funtion that prints character.
+ *
+ * @ap: Argument pointer of variadic type.
+ *
+ * @params: Parameters struct.
  *
  * Return: number chars printed
  */
