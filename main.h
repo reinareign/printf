@@ -7,10 +7,10 @@
 #include <limits.h>
 #include <stdlib.h>
 
-#define OUTPUT_BUF_SIZE 1024
+#define OUTPUT_BUFFER_SIZE 1024
 #define BUF_FLUSH -1
 
-#define FIELD_BUF_SIZE 50
+#define FIELD_BUFFER_SIZE 50
 
 #define NULL_STRING "(null)"
 
@@ -20,22 +20,21 @@
 #define CONVERT_UNSIGNED	2
 
 /**
- * struct parameters - parameters struct
+ * struct parameters - the parameters struct.
  *
- * @unsign: flag if unsigned value
+ * @unsign: flag if unsigned value.
  *
- * @plus_flag: on if plus_flag specified
- * @space_flag: on if hashtag_flag specified
- * @hashtag_flag: on if _flag specified
- * @zero_flag: on if _flag specified
- * @minus_flag: on if _flag specified
+ * @plus_flag: on if plus_flag is specified.
+ * @space_flag: on if hashtag_flag is specified.
+ * @hashtag_flag: on if _flag is specified.
+ * @zero_flag: on if _flag is specified.
+ * @minus_flag: on if _flag is specified.
  *
- * @width: field width specified
- * @precision: field precision specified
+ * @width: field width specified.
+ * @precision: field precision specified.
  *
- * @h_modifier: on if h_modifier is specified
- * @l_modifier: on if l_modifier is specified
- *
+ * @h_modifier: on if h_modifier is specified.
+ * @l_modifier: on if l_modifier is specified.
  */
 
 typedef struct parameters
@@ -56,9 +55,9 @@ typedef struct parameters
 } params_t;
 
 /**
- * struct specifier - Struct token
+ * struct specifier - the Struct token
  *
- * @specifier: format token
+ * @specifier: the format token
  * @f: The function associated
  */
 typedef struct specifier
