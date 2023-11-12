@@ -29,7 +29,7 @@ int _strlen(char *s)
 }
 
 /**
- * print_number - A function that prints a number with options.
+ * print_number - Function that prints a number with options.
  *
  * @str: Base number as a string.
  *
