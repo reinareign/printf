@@ -4,11 +4,11 @@ The ALX C - printf group project is a collaboration completed by Chisom Enem and
 programming and algorithm learning at the renowned ALX Holberton School. This program is a pseudo -
 recreation of the C standard lib function, 'printf.'
 
-## Usage
+# Usage
 
 Compile all '.c' files in the repository, incorporating the header 'main.h' into your main function, to utilize the '_printf' function, assuming that the necessary dependencies have been installed.
 
-## C - printf: Group Project (Tag Team)
+# C - printf: Group Project (Tag Team)
 
 Tasks
 
@@ -25,12 +25,10 @@ You don’t have to handle precision
 You don’t have to handle the length modifiers
 
 2. With a face like mine, I do better in print
-
 Handle the following custom conversion specifiers:
 b: the unsigned int argument is converted to binary
 
 3. What one has not experienced, one will never understand in print
-#advanced
 Handle the following conversion specifiers:
 u
 o
@@ -85,15 +83,14 @@ r : prints the reversed string
 Handle the following custom conversion specifier:
 R: prints the rot13'ed string
 
-## Description
+# Description
 
-The function `_printf` writes output to standard output. The function writes
-under the control of a `format` string that specifies how subsequent arguments
-(accessed via the variable-length argument facilities of `stdarg`) are
+The function '_printf' writes output to standard output. The function writes
+under the control of a 'format' string that specifies how subsequent arguments
+(accessed via the variable-length argument facilities of 'stdarg') are
 converted for output.
 
-## Authors
+# Authors
+
 + Chisom Enem
 + Awam Chimere
-
-
