@@ -27,7 +27,7 @@ int print_from_to(char *start, char *stop, char *except)
 /**
  * print_rev - Function that prints string in reverse.
  *
- * @ap: String to be printed.
+ * @ap: String to print.
  *
  * @params: Parameters struct.
  *
