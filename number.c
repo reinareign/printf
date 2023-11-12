@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * convert: converter function - a clone of integer to ASCII.
+ * convert - converter function, a clone of integer to ASCII.
  * @num: number.
  * @base: base.
  * @flags: the argument flags.
