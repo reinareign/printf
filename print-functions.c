@@ -7,7 +7,7 @@
  *
  * @params: Parameters struct.
  *
- * Return: Number of characters printed.
+ * Return: The number of characters printed.
  */
 int print_char(va_list ap, params_t *params)
 {
@@ -24,11 +24,13 @@ int print_char(va_list ap, params_t *params)
 }
 
 /**
- * print_int - prints integer
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_int - Function that prints integer.
  *
- * Return: number chars printed
+ * @ap: The argument pointer of variadic type.
+ *
+ * @params: Parameters struct.
+ *
+ * Return: The number of integers printed.
  */
 int print_int(va_list ap, params_t *params)
 {
@@ -44,11 +46,13 @@ int print_int(va_list ap, params_t *params)
 }
 
 /**
- * print_string - prints string
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_string - Function to print strings.
  *
- * Return: number chars printed
+ * @ap: The argument pointer of type var.
+ *
+ * @params: Parameters struct
+ *
+ * Return: The number of chars printed
  */
 int print_string(va_list ap, params_t *params)
 {
@@ -86,11 +90,13 @@ int print_string(va_list ap, params_t *params)
 }
 
 /**
- * print_percent - prints string
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_percent - Function that prints string.
  *
- * Return: number chars printed
+ * @ap: The argument pointer of var type.
+ *
+ * @params: Parameters struct.
+ *
+ * Return: The number of characters printed.
  */
 int print_percent(va_list ap, params_t *params)
 {
@@ -100,11 +106,13 @@ int print_percent(va_list ap, params_t *params)
 }
 
 /**
- * print_S - custom format specifier
- * @ap: argument pointer
- * @params: the parameters struct
+ * print_S - The custom format specifier.
  *
- * Return: number chars printed
+ * @ap: The argument pointer of type var.
+ *
+ * @params: Parameters struct.
+ *
+ * Return: The number of characters printed.
  */
 int print_S(va_list ap, params_t *params)
 {
@@ -132,4 +140,3 @@ int print_S(va_list ap, params_t *params)
 	}
 	return (sum);
 }
-
