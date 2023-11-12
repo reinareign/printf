@@ -8,8 +8,10 @@ recreation of the C standard lib function, 'printf.'
 
 Compile all '.c' files in the repository, incorporating the header 'main.h' into your main function, to utilize the '_printf' function, assuming that the necessary dependencies have been installed.
 
-C - printf
+## C - printf: Group Project (Tag Team)
+
 Tasks
+
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 Write a function that produces output according to a format.
 
