@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _printf - it prints anything
- * @format: handle the format string
+ * _printf - formatted output trhat prints anything
+ * @format: handle the format string accordingly.
  *
- * Return: number of bytes printed
+ * Return: the number of bytes being printed.
  */
 
 int _printf(const char *format, ...)
