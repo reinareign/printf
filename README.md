@@ -93,7 +93,7 @@ under the control of a `format` string that specifies how subsequent arguments
 converted for output.
 
 ## Authors
-Chisom Enem
-Awam Chimere
++ Chisom Enem
++ Awam Chimere
 
 
