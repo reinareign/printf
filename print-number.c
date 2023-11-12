@@ -68,7 +68,7 @@ int print_number(char *str, params_t *params)
  *
  * @params: Parameter struct.
  *
- * Return: Returns the chars printed.
+ * Return: Returns the characters printed.
  */
 int print_number_right_shift(char *str, params_t *params)
 {
