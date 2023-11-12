@@ -7,7 +7,7 @@
  *
  * @params: Parameters struct.
  *
- * Return: number chars printed
+ * Return: Number of characters printed.
  */
 int print_char(va_list ap, params_t *params)
 {
