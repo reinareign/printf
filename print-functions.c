@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_char - A funtion that prints character.
+ * print_char - Funtion that prints character.
  *
  * @ap: Argument pointer of variadic type.
  *
