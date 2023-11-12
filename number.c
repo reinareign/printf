@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * convert - converter function, a clone of itoa
- * @num: number
- * @base: base
- * @flags: argument flags
- * @params: paramater struct
+ * convert: converter function - a clone of integer to ASCII.
+ * @num: number.
+ * @base: base.
+ * @flags: the argument flags.
+ * @params: the paramater struct.
  *
- * Return: string
+ * Return: string.
  */
+
 char *convert(long int num, int base, int flags, params_t *params)
 {
 	static char *array;
