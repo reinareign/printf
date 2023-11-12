@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if character is digit
- * @c: the character to check
+ * _isdigit - A fucntion that checks if character is digit.
  *
- * Return: 1 if digit, 0 otherwise
+ * @c: Varible character to check.
+ *
+ * Return: 1 or 0
  */
 int _isdigit(int c)
 {
@@ -12,10 +13,11 @@ int _isdigit(int c)
 }
 
 /**
- * _strlen - returns the length of a string
- * @s: the string whose length to check
+ * _strlen - The function returns the length of a string.
  *
- * Return: integer length of string
+ * @s: String length to check.
+ *
+ * Return: Length of string.
  */
 int _strlen(char *s)
 {
@@ -27,11 +29,13 @@ int _strlen(char *s)
 }
 
 /**
- * print_number - prints a number with options
- * @str: the base number as a string
- * @params: the parameter struct
+ * print_number - A function that prints a number with options.
  *
- * Return: chars printed
+ * @str: Base number as a string.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: Returns the chars printed.
  */
 int print_number(char *str, params_t *params)
 {
@@ -58,11 +62,13 @@ int print_number(char *str, params_t *params)
 }
 
 /**
- * print_number_right_shift - prints a number with options
- * @str: the base number as a string
- * @params: the parameter struct
+ * print_number_right_shift - Funtion that prints a number with options.
  *
- * Return: chars printed
+ * @str: Base number as a string.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: Returns the chars printed.
  */
 int print_number_right_shift(char *str, params_t *params)
 {
@@ -100,11 +106,13 @@ int print_number_right_shift(char *str, params_t *params)
 }
 
 /**
- * print_number_left_shift - prints a number with options
- * @str: the base number as a string
- * @params: the parameter struct
+ * print_number_left_shift - Function that prints a number with options.
  *
- * Return: chars printed
+ * @str: Base number as a string.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: returns chars printed.
  */
 int print_number_left_shift(char *str, params_t *params)
 {
