@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_precision - Function that gets the precision from the format string.
+ * get_precision - Function to get the precision from the format string.
  *
  * @p: Format string to check.
  *
