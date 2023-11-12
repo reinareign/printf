@@ -9,7 +9,7 @@
  *
  * @ap: Argument pointer.
  *
- * Return: Returns new pointer.
+ * Return: Returns a new pointer.
  */
 char *get_precision(char *p, params_t *params, va_list ap)
 {
