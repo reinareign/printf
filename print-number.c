@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - A fucntion that checks if character is digit.
+ * _isdigit - A function that checks if character is digit.
  *
  * @c: Varible character to check.
  *
