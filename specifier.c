@@ -5,7 +5,7 @@
  *
  * @s: Format string.
  *
- * Return: Returns the number of bytes printed.
+ * Return: The number of bytes printed.
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
@@ -48,7 +48,7 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
  *
  * @params: Parameter struct.
  *
- * Return: Returns number of bytes printed.
+ * Return: Number of bytes printed.
  */
 int get_print_func(char *s, va_list ap, params_t *params)
 {
