@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - prints a string with newline
- * @str: the string to print
+ * _puts - a function that writes a string to the standard output with a newline character.
+ * @str: string to print.
  *
  * Return: void
  */
