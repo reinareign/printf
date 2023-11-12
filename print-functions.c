@@ -52,7 +52,7 @@ int print_int(va_list ap, params_t *params)
  *
  * @params: Parameters struct.
  *
- * Return: The number of chars printed.
+ * Return: The number of characters printed.
  */
 int print_string(va_list ap, params_t *params)
 {
