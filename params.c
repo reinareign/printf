@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * init_params - Function that clears struct fields and reset the buffer.
+ * init_params - function that clears struct fields and reset the buffer.
  *
- * @params: Parameters struct.
+ * @params: parameters struct.
  *
- * @ap: Argument pointer to variadic function.
+ * @ap: argument pointer.
  *
  * Return: void
  */
+
 void init_params(params_t *params, va_list ap)
 {
 	params->unsign = 0;
