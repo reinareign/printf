@@ -35,7 +35,7 @@ int _strlen(char *s)
  *
  * @params: Parameter struct.
  *
- * Return: Returns the chars printed.
+ * Return: Returns the characters printed.
  */
 int print_number(char *str, params_t *params)
 {
