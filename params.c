@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * init_params - clears struct fields and reset buf
- * @params: the parameters struct
- * @ap: the argument pointer
+ * init_params - Function that clears struct fields and reset the buffer.
+ *
+ * @params: Parameters struct.
+ *
+ * @ap: Argument pointer to variadic function.
  *
  * Return: void
  */
