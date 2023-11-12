@@ -50,7 +50,7 @@ int print_int(va_list ap, params_t *params)
  *
  * @ap: The argument pointer of type var.
  *
- * @params: Parameters struct
+ * @params: Parameters struct.
  *
  * Return: The number of chars printed
  */
