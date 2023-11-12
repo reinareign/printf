@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * get_specifier - finds the format func
- * @s: the format string
+ * get_specifier - Function that finds the format function.
  *
- * Return: the number of bytes printed
+ * @s: Format string.
+ *
+ * Return: Returns the number of bytes printed.
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
@@ -39,12 +40,15 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 }
 
 /**
- * get_print_func - finds the format func
- * @s: the format string
- * @ap: argument pointer
- * @params: the parameters struct
+ * get_print_func - Function that finds the format function.
  *
- * Return: the number of bytes printed
+ * @s: Format string.
+ *
+ * @ap: The argument pointer.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: Returns number of bytes printed.
  */
 int get_print_func(char *s, va_list ap, params_t *params)
 {
@@ -56,11 +60,13 @@ int get_print_func(char *s, va_list ap, params_t *params)
 }
 
 /**
- * get_flag - finds the flag func
- * @s: the format string
- * @params: the parameters struct
+ * get_flag - Function that finds the flag function.
  *
- * Return: if flag was valid
+ * @s: Format string.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: If flag is valid.
  */
 int get_flag(char *s, params_t *params)
 {
@@ -88,11 +94,13 @@ int get_flag(char *s, params_t *params)
 }
 
 /**
- * get_modifier - finds the modifier func
- * @s: the format string
- * @params: the parameters struct
+ * get_modifier - This finds the modifier function.
  *
- * Return: if modifier was valid
+ * @s: Format string.
+ *
+ * @params: Parameter struct.
+ *
+ * Return: Returns if modifier's valid.
  */
 int get_modifier(char *s, params_t *params)
 {
@@ -111,12 +119,15 @@ int get_modifier(char *s, params_t *params)
 }
 
 /**
- * get_width - gets the width from the format string
- * @s: the format string
- * @params: the parameters struct
- * @ap: the argument pointer
+ * get_width - Function that gets the width from the format string.
  *
- * Return: new pointer
+ * @s: Format string to check.
+ *
+ * @params: Parameter struct.
+ *
+ * @ap: Argument pointer of type var.
+ *
+ * Return: Returns new pointer.
  */
 char *get_width(char *s, params_t *params, va_list ap)
 /* should this function use char **s and modify the pointer? */
@@ -136,5 +147,3 @@ char *get_width(char *s, params_t *params, va_list ap)
 	params->width = d;
 	return (s);
 }
-
-
